@@ -45,3 +45,188 @@ Preferred Scenarios:
 •	Innovative Projects: For exploratory or innovative endeavors.
 •	Dynamic Environments: When market conditions or technology evolve rapidly.
 5.	What is requirements engineering? Describe the process and its importance in the software development lifecycle. Software Design Principles
+ Requirements engineering is the process of identifying , documenting and maintaining the requirements for a software system to ensure it meets stakeholder needs
+
+ Process of requirements
+ 1. Requirements Elicitation: Which is gathering requirements from stakeholders.
+ 2. Requirements Analysis: Refining and prioritizing requirements
+ 3. Requirements Specification:Documenting requirements formally
+ 4. Requirements Validation :Ensuring requirements are correct and feasible 
+ 5. Requirements  Management: Handling changes to requirements throughout the project.
+
+ Important in SDLC
+ 1. It provides a foundation for design and development,which aligns the stakeholder expectations.
+ 2. Reduce risks and costs by catching issues early 
+ 3. It ensures quality through well-defined requirements
+
+ Software Design Principles
+
+1.Separation of Concerns: Divide the system into distinct sections.
+2.Modularity: Create discrete modules with specific functionalities.
+3.Abstraction: Simplify complexity by hiding details.
+4.Encapsulation: Hide internal details and expose a controlled interface.
+5.Single Responsibility Principle: Each module/class has one job.
+6.Open/Closed Principle: Open for extension, closed for modification.
+7.Liskov Substitution Principle: Subtypes should be substitutable for base types.
+8.Interface Segregation Principle: Use smaller, specific interfaces.
+
+Explain the concept of modularity in software design. How does it improve maintainability and scalability of software systems? Testing in Software Engineering:
+-Modularity involves dividing a software system into separate, self-contained modules, each responsible for a specific aspect of the system's functionality.
+
+Benefits are of maintainability are 
+-Isolation: Each module can be developed, tested, and debugged independently.
+-Ease of Updates: Changes in one module are less likely to impact others, making it easier to update or fix parts of the system.
+-Readability: Smaller, well-defined modules are easier to understand and navigate.
+
+
+Benefits are of Scalability are 
+-Parallel Development: Different teams can work on separate modules simultaneously, speeding up development.
+-Reusability: Modules can be reused across different parts of the system or in different projects.
+-Extensibility: New features can be added as new modules without modifying existing ones, allowing the system to grow more easily.
+
+Testing in Software Engineering
+-Testing in software engineering involves evaluating a system to identify defects, ensure it meets requirements, and verify its functionality.
+
+Types of Testing:
+
+1.Unit Testing: Testing individual components or modules.
+2.Integration Testing: Testing the interaction between modules.
+3.System Testing: Testing the complete integrated system.
+4.Acceptance Testing: Validating the system against user requirements.
+
+Importance
+
+1.Quality Assurance: Ensures the software meets specified requirements and works as expected.
+2.Bug Detection: Identifies and allows for the correction of defects.
+3.Performance Verification: Ensures the system performs well under expected conditions.
+4.User Satisfaction: Confirms that the software provides a satisfactory user experience.
+
+Levels of Software Testing
+1.Unit Testing:
+-Tests individual components.
+-Ensures each part works correctly in isolation.
+2.Integration Testing:
+-Tests interactions between modules.
+-Detects issues in module interactions.
+3.System Testing:
+-Tests the complete integrated system.
+-Validates compliance with requirements.
+4.Acceptance Testing:
+-Tests if the system meets business requirements.
+-Ensures readiness for delivery to end-users.
+
+
+Importance of Testing
+1.Quality Assurance: Ensures software meets requirements and functions correctly.
+2.Bug Detection: Identifies defects early.
+3.Performance Verification: Confirms software performs well under expected conditions.
+4.User Satisfaction: Ensures a satisfactory user experience.
+
+Version Control Systems (VCS)
+-Manages changes to source code over time, enabling collaboration.
+Types:
+1.Centralized VCS (e.g., Subversion).
+2.Distributed VCS (e.g., Git).
+Benefits:
+
+1.Collaboration: Supports multiple developers working together.
+2.Version Tracking: Keeps a history of changes.
+3.Branching and Merging: Facilitates parallel development.
+4.Backup: Protects against data loss
+
+
+Version Control Systems (VCS)
+-Tools that manage changes to source code over time, allowing multiple developers to collaborate.
+Importance:
+
+Collaboration: Supports team development.
+Version Tracking: Maintains a history of changes.
+Branching and Merging: Facilitates parallel development.
+Backup: Protects against data loss.
+Examples and Features:
+
+Git:
+
+Distributed VCS.
+Local repositories for each developer.
+Strong branching and merging capabilities.
+2.Subversion (SVN):
+-Centralized VCS.
+-Single central repository.
+Supports atomic commits and detailed access control.
+
+Software Project Management
+-The process of planning, organizing, and managing resources to achieve specific software project goals.
+
+Key Activities:
+
+Planning: Defining scope, goals, and schedule.
+Organizing: Allocating resources and roles.
+Monitoring: Tracking progress and performance.
+Controlling: Adjusting plans to stay on track.
+Closing: Finalizing and delivering the project.
+
+Importance:
+
+Ensures project goals are met on time and within budget.
+Improves communication and coordination within the team.
+Identifies and mitigates risks early.
+
+Role of a Software Project Manager
+Key Responsibilities:
+
+Planning: Define project scope, goals, and schedule.
+Organizing: Allocate resources and assign roles.
+Monitoring: Track progress and performance.
+Controlling: Adjust plans to address issues.
+Closing: Finalize and deliver the project.
+Challenges:
+
+Scope Creep: Managing changes to project scope.
+
+Time Management: Meeting deadlines.
+Resource Allocation: Ensuring adequate resources.
+Communication: Keeping stakeholders informed.
+Risk Management: Identifying and mitigating risks.
+
+Software Maintenance
+-The process of updating and improving software after its initial release.
+Types:
+
+Corrective: Fixing bugs and errors.
+Adaptive: Updating software to work in new environments.
+Perfective: Enhancing functionality and performance.
+Preventive: Improving maintainability and preventing future issues.
+Importance:
+
+Ensures software remains functional and relevant.
+Enhances user satisfaction and system performance.
+Prolongs the software’s lifespan.
+
+
+Software Maintenance
+-The process of updating and improving software after its initial release.
+
+Types:
+Corrective: Fixing bugs and errors.
+Adaptive: Updating software to work in new environments.
+Perfective: Enhancing functionality and performance.
+Preventive: Improving maintainability and preventing future issues.
+
+Importance:
+Keeps software functional and relevant.
+Enhances user satisfaction and performance.
+Extends the software’s lifespan.
+Ethical Considerations in Software Engineering
+
+Key Considerations:
+Privacy: Protecting user data and ensuring confidentiality.
+Security: Safeguarding systems against threats and vulnerabilities.
+Transparency: Being clear about data usage and software functionality.
+Fairness: Avoiding biases in software design and implementation.
+Accountability: Taking responsibility for the software’s impact and addressing any issues that arise.
+
+Prompt engineering raises various ethical considerations, including:
+  - Bias Amplification: Biased prompts may reinforce existing biases in AI models, leading to unfair or discriminatory outcomes.
+  - Misinformation: Misleading prompts can result in the generation of inaccurate or deceptive content, spreading misinformation.
+  - Privacy Concerns: Prompts 
